@@ -92,7 +92,7 @@
   .btn__show-more {
     position: relative;
   }
-}
+
 .btn__show-more::before {
   content: " ";
   background-image: url(img/expand.svg);
@@ -134,6 +134,7 @@
   margin-right: 16px;
   margin-bottom: 24px;
   padding: 16px;
+}
 }
 @media screen and (min-width: 1120px) {
   body {
