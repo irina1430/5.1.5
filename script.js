@@ -5,6 +5,7 @@ function swiperCard() {
     if (!init) {
       init = true;
       swiper = new Swiper(".swiper", {
+        slidesPerView: "auto",
         direction: "horizontal",
         pagination: {
           el: ".swiper-pagination",
