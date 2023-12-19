@@ -118,6 +118,9 @@ body {
 }
 .section__brands {
   padding-bottom: 32px;
+  display: grid;
+    justify-content: center;
+    align-items: start;
 }
 .brands__title {
   padding-left: 24px;
